@@ -3,44 +3,6 @@
 <head>
     <meta charset="UTF-8" />
     <title>Sample Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background: #f4f4f4;
-        }
-        header {
-            background: #0078d7;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-        main {
-            background: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            max-width: 700px;
-            margin: 30px auto;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-        }
-        footer {
-            text-align: center;
-            color: #888;
-            margin-top: 40px;
-        }
-        a.button {
-            display: inline-block;
-            padding: 10px 20px;
-            background: #0078d7;
-            color: #fff;
-            border-radius: 4px;
-            text-decoration: none;
-            margin-top: 20px;
-        }
-        a.button:hover {
-            background: #005fa3;
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -51,6 +13,52 @@
         <p>This is a simple sample website created with HTML and CSS. You can use this as a starting point for your own projects.</p>
         <a href="https://github.com/" class="button" target="_blank">Visit GitHub</a>
     </main>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+    </style>    
+    <script>
+        console.log("Welcome to the Sample Website!");
+    </script>   
+</main>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("Document is ready!");
+        });
+    </script>
+    <script>
+        function showAlert() {
+            alert("This is a sample alert!");                   
     <footer>
         &copy; 2024 Sample Website
     </footer>
